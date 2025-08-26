@@ -46,5 +46,7 @@ mysqli_close($connect);
     <input type="number" name="newCell"><br>
     <label>Email</label>
     <input type="text" name="newEmail"> <br>
+    <label>Endereço</label>
+    <input type="text" name="newEnd"> <br>
     <input type="submit" value="Atualizar dados">
 </form>

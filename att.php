@@ -12,9 +12,9 @@
     $nome = $_POST["newName"];
     $cell = $_POST["newCell"];
     $email = $_POST["newEmail"];
-    $end = $_POST[""];
+    $end = $_POST["newEnd"];
 
-    $sql = "UPDATE clientes SET nome = '$nome', celular = '$cell', email = '$email' WHERE cpf = '$cpf'";
+    $sql = "UPDATE clientes SET nome = '$nome', celular = '$cell', email = '$email', endereco = '$end' WHERE cpf = '$cpf'";
 
     if (mysqli_query($connect, $sql) === TRUE) {
         echo "<h1>Cadastro atualizado com sucesso";
