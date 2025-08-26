@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deletar user</title>
+    <link rel="stylesheet" href="del.css">
+</head>
+<body>
+    <h1>Excluir Clientes</h1>
+
+    <form action="delete.php" method="post">
+        <label>Informe o CPF que deseja deletar</label>
+        <input type="number" name="deletar" id="deletar">
+        <input type="submit" value="Excluir" onclick="return confirm('deseja realmente excluir a Informação?')">
+    </form>

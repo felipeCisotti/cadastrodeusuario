@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DATABASE - SENAI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- From Uiverse.io by alexruix -->
+    <div class="card">
+        <h4 class="title">Cadastrar</h4>
+        <form method="post" action="cadastrar.php">
+            <div class="field">
+                <input type="number" name="cpf" id="cpf" class="input-field" placeholder="CPF" autocomplete="off">
+            </div>
+            <div class="field">
+                <input type="text" name="nome" id="nome" class="input-field" placeholder="Nome" autocomplete="off">
+            </div>
+            <div class="field">
+                <input type="number" name="cell" id="cell" class="input-field" placeholder="Telefone"
+                    autocomplete="off">
+            </div>
+            <div class="field">
+                <input type="email" name="email" id="email" class="input-field" placeholder="Email" autocomplete="off">
+            </div>
+                        <div class="field">
+                <input type="text" name="end" id="end" class="input-field" placeholder="Endereço" autocomplete="off">
+            </div>
+            <button class="btn" type="submit">Cadastrar</button>
+            <a href="deletar.html" class="btn-link">Deletar Usuario cadastrado</a> <br>
+            <a href="update.php" class="btn-link">Atualizar Tabelas</a> <br>
+            <a href="serch.html" class="btn-link">Pesquisar Usuario</a>
+        </form>
+    </div>
